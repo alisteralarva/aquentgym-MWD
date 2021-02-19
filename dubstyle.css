@@ -1,0 +1,192 @@
+body{
+	background-color: #FFD100;
+}
+
+.content {
+	max-width: 900px;
+	margin: auto;
+	padding: 10px 40px 40px 40px;
+	background-color: #FFF;
+}
+
+nav {
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 40px;
+	vertical-align: middle;
+}
+
+[role="navigation"] ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 0px;
+}
+
+[role="navigation"] ul li a {
+	font-family:ff-enzo-web;
+	font-weight:600;
+	font-size:16px;
+	line-height:20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: blue;
+	padding-left:0px;
+	padding-right: 30px;
+}
+
+h1 {
+	font-family:ff-enzo-web;
+	font-weight:900;
+	font-size:62px;
+	line-height:66px;
+	text-transform:uppercase;
+	text-align: center;
+	color: blue;
+	margin: 0px;
+}
+
+h2 {
+	font-family:ff-enzo-web;
+	font-weight:600;
+	font-size:32px;
+	line-height:36px;
+	text-transform:uppercase;
+	text-align: center;
+	color: #455560;
+	margin: 0px 0px 40px 0px;
+}
+
+h3 {
+	font-family:ff-enzo-web;
+	font-weight:700;
+	font-size:24px;
+	line-height:30px;
+	text-align: center;
+	color: blue;
+	margin:0px;
+}
+
+h3.table {
+	margin-bottom: 12px;
+}
+
+table.players {
+	font-family:ff-enzo-web;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #455560;
+	margin: auto;
+	margin-bottom:40px;
+	vertical-align: text-top;
+}
+
+table.players::first-line {
+	font-weight:900;
+}
+
+table.depth {
+	font-family:ff-enzo-web;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	color: #455560;
+	margin: auto;
+	margin-bottom:28px;
+	vertical-align: text-top;
+}
+
+table.depth::first-line {
+	font-weight:900;
+}
+
+td p {
+	margin: 0px 10px 10px 10px;
+}
+
+p {
+	font-family:ff-enzo-web;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	color: #455560;
+	vertical-align: text-top;
+}
+
+section:nth-child(3n+1) {
+	margin-bottom: 40px;
+}
+
+section:nth-child(3n+3) {
+	margin-bottom: 40px;
+}
+
+main:nth-child(4n+4).home {
+	margin-bottom: 40px;
+}
+
+p.footer {
+	font-family:ff-enzo-web;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 13px;
+	text-align: center;
+	color: #455560;
+	margin: auto;
+	vertical-align: text-top;
+}	
+
+@import url("https://p.typekit.net/p.css?s=1&k=swo3lei&ht=tk&f=4528.4549.4586.4992.5196.5246.5306.5415&a=5887906&app=typekit&e=css");
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/56becc/000000000000000000015e9b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/56becc/000000000000000000015e9b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/56becc/000000000000000000015e9b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/176958/000000000000000000015e9f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/176958/000000000000000000015e9f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/176958/000000000000000000015e9f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/3d1905/000000000000000000015e98/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/3d1905/000000000000000000015e98/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/3d1905/000000000000000000015e98/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/e78b89/000000000000000000015ea0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/e78b89/000000000000000000015ea0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/e78b89/000000000000000000015ea0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/d37055/000000000000000000015e9a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d37055/000000000000000000015e9a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d37055/000000000000000000015e9a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/0c3de2/000000000000000000015ea1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff2"),url("https://use.typekit.net/af/0c3de2/000000000000000000015ea1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff"),url("https://use.typekit.net/af/0c3de2/000000000000000000015ea1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:100;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/894287/000000000000000000015e9e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/894287/000000000000000000015e9e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/894287/000000000000000000015e9e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;
+}
+
+@font-face {
+font-family:"ff-enzo-web";
+src:url("https://use.typekit.net/af/ad2742/000000000000000000015e99/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/ad2742/000000000000000000015e99/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/ad2742/000000000000000000015e99/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;
+}
+
+.tk-ff-enzo-web { font-family: "ff-enzo-web",sans-serif; }
