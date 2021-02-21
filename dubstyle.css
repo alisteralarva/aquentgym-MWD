@@ -12,7 +12,7 @@ body{
 nav {
 	text-align: center;
 	margin: 0px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	vertical-align: middle;
 }
 
@@ -20,6 +20,8 @@ nav {
 	list-style: none;
 	display: inline;
 	margin-left: 0px;
+	text-align: center;
+	padding: 0px 20px;
 }
 
 [role="navigation"] ul li a {
@@ -27,11 +29,12 @@ nav {
 	font-weight:600;
 	font-size:16px;
 	line-height:20px;
+	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: blue;
-	padding-left:0px;
-	padding-right: 30px;
+	padding:10px;
+	box-shadow: 3px 3px blue, -1px -1px blue;
 }
 
 h1 {
@@ -116,6 +119,23 @@ p {
 	vertical-align: text-top;
 }
 
+p.contentbox {
+	box-sizing: content-box;
+	border: 10px solid blue;
+	display: inline-block;
+	margin-right:36px;
+	padding:20px;
+	width: 400px;
+}
+
+p.borderbox {
+	box-sizing: border-box;
+	border: 10px solid blue;
+	display: inline-block;
+	padding:20px;
+	width:400px;
+}
+
 section:nth-child(3n+1) {
 	margin-bottom: 40px;
 }
@@ -126,6 +146,12 @@ section:nth-child(3n+3) {
 
 main:nth-child(4n+4).home {
 	margin-bottom: 40px;
+}
+
+.Big3 {
+	font-weight: 700;
+	display: inline;
+	padding:0px 10px;
 }
 
 p.footer {
