@@ -7,7 +7,7 @@ body{
 
 .content {
 	box-sizing: border-box;
-	width: 960px;
+	width: 100%;
 	height: auto;
 	margin: auto;
 	margin-top:0px;
@@ -19,7 +19,7 @@ body{
 	
 nav {
 	display: inline;
-	text-align: center;
+	text-align: left;
 	vertical-align: middle;
 }
 
@@ -34,9 +34,6 @@ nav {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	display: inline;
-	margin-left: 0px;
-	padding: 0px 20px;
 }
 
 [role="navigation"] ul li a {
@@ -56,23 +53,24 @@ nav [role="navigation"] ul li img {
 }
 
 #logo {
-	width: 100px;
+	width: 50px;
 }
 
 .pages {
 	height:0px;
-	visibility:visible;
+	visibility:collapse;
 	width:0px;
 }
 	
 .menu {
-	height:100px;
-	margin: auto;
+	background-color: #fff;
+	height:50px;
+	margin: 0px;
 	padding:0px;
-	padding-top:20px;
-	padding-bottom:40px;
-	position:relative;
-	width: 960px;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:fixed;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -80,8 +78,8 @@ nav [role="navigation"] ul li img {
 h1 {
 	font-family:ff-enzo-web;
 	font-weight:900;
-	font-size:72px;
-	line-height:72px;
+	font-size:40px;
+	line-height:40px;
 	text-transform:uppercase;
 	text-align: center;
 	color: blue;
@@ -91,8 +89,8 @@ h1 {
 h2 {
 	font-family:ff-enzo-web;
 	font-weight:600;
-	font-size:40px;
-	line-height:40px;
+	font-size:24px;
+	line-height:30px;
 	text-transform:uppercase;
 	text-align: center;
 	color: #455560;
@@ -241,8 +239,7 @@ main:nth-child(4n+4).home {
 }
 
 .empty {
-	visibility: collapse;
-	height: 0px;
+	height: 80px;
 	width:100%;
 }
 
@@ -264,11 +261,10 @@ a {
 	
 figure#Steph img {
 	object-fit: cover;
-	width:120%;
+	width:auto;
 	height: 100%;
 	position: relative;
-	top:0px;
-	left: 0px;
+	right: 320px;
 	}
 
 .StephHdr {
