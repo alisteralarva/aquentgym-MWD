@@ -80,6 +80,7 @@
 
 
 //CODE BASED ON MY PAGE STARTS HERE
+if ( ! 'classList' in document.body ) { return; }
 	
 //Define all the variables here
 var $html = document.getElementsByTagName( 'html' ) [0],

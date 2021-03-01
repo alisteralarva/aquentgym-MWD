@@ -330,3 +330,10 @@ font-display:auto;font-style:italic;font-weight:900;
 .tk-ff-enzo-web { font-family: "ff-enzo-web",sans-serif; }
 	
 }
+
+/* for getActiveMQ */
+#getActiveMQ-watcher { 
+    font-family: "small"; 
+    } 
+
+}
